@@ -2,7 +2,7 @@ import "./Top.css";
 
 function Top() {
   return (
-    <section className="top">
+    <section className="top animate__animated  animate__fadeInDown">
       <div className="container">
         <div className="top__inner">
           <img src="./images/top.png" alt="image" className="top__img" />

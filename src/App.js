@@ -19,7 +19,9 @@ function App() {
       <div className="app__wrapper">
         <NavBar />
         <Top />
-        <ul className="card__list">{cards}</ul>
+        <ul className="card__list animate__animated  animate__fadeInRight">
+          {cards}
+        </ul>
       </div>
     </div>
   );
